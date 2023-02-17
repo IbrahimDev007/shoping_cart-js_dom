@@ -29,6 +29,11 @@ function phoneUpdate(inputNumb) {
     }
     else {
         cur = value - 1;
+        if (cur < 0) {
+            return 0;
+        }
+   
+       
     }
     input_field.value = cur;
 
